@@ -37,6 +37,10 @@ gem 'will_paginate-bootstrap'
 # Use slim instead of erb
 gem 'slim'
 
+group :production do
+  gem 'puma'
+end
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
